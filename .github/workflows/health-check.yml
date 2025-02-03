@@ -51,8 +51,9 @@ jobs:
         id: metrics
         env:
           SOURCES: |
-            GitHub->https://github.com
-            Facebook->https://facebook.com
+            safebeat.com->https://safebeat.com
+            Demo->https://demo.safebeatrx.net
+            IDTF->https://idtf.safebeatrx.net
           GITHUB_TOKEN: ${{ github.token }}
           JOB_NAME: ${{ github.workflow }}
           ARTIFACT_NAME: ${{ env.ARTIFACT_NAME }}
